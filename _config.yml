@@ -75,6 +75,7 @@ social-network-links:
   email: "dbrg77@gmail.com"
   github: dbrg77
   twitter: XiChenUoM
+#  facebook: yourname
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -93,7 +94,6 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
