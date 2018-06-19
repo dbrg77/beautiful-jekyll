@@ -38,11 +38,12 @@ foo(3)
 
 And here is the same code with syntax highlighting:
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+```python
+def fp(x):
+    ''' Some docstring
+    '''
+    for i,j in enumerate(x):
+        print(i,j, sep='\t')
 ```
 
 And here is the same code yet again but with line numbers:
