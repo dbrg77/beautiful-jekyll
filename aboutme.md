@@ -1,16 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: I have no idea.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I have a typical Chinese name (Xi Chen), and I like:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Certain types of music, including folk, gothic metal, death metal, melodic death metal, power metal, progressive metal
+- One computer game: Diablo II
+- Some 8-bit NES games: the Ninja Gaiden triology, Megaman 1 and 2, Castlvania
 
-What else do you need?
+### My history
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Write something when I have time.
