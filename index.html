@@ -30,9 +30,9 @@ use-site-title: true
         </a>
       </div>
       {% endif %}
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
+      <div class="post-entry">
+        {{ post.content }}
+      </div>
     </div>
 
     {% if post.tags.size > 0 %}
