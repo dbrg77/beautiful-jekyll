@@ -342,6 +342,9 @@ footer .theme-by {
   margin-top: 0;
   text-decoration: none;
 }
+.post-preview .post-title a:link {
+  text-decoration: none;
+}
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
