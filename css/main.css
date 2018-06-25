@@ -340,6 +340,7 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 30px;
   margin-top: 0;
+  text-decoration: none;
 }
 .post-preview .post-subtitle {
   margin: 0;
