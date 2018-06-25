@@ -329,9 +329,6 @@ footer .theme-by {
 }
 
 .post-preview a:focus,
-.post-preview a:link {
-  text-decoration: underline;
-}
 .post-preview a:hover {
   text-decoration: none;
   color: {{ site.hover-col }};
@@ -340,10 +337,6 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 30px;
   margin-top: 0;
-  text-decoration: none;
-}
-.post-preview .post-title a:link {
-  text-decoration: none;
 }
 .post-preview .post-subtitle {
   margin: 0;
@@ -359,6 +352,9 @@ footer .theme-by {
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.post-preview .post-entry a:link {
+  text-decoration: underline;
 }
 .post-entry-container {
   display: inline-block;
