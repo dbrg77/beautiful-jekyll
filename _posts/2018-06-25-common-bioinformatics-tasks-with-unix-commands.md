@@ -3,7 +3,9 @@ layout: post
 title: Common Bioinformatics Tasks With UNIX Commands
 ---
 
-## awk
+_Originally posted on 2016-Oct-20._
+
+### awk
 
 __1. Give names to each peak in a 3-column bed file:__
 
@@ -85,7 +87,7 @@ awk 'BEGIN{OFS="\t"}{print $1,$2+$10,$2+$10+1,$4}' Oct4_peaks.narrowPeak
 sort -k7,7nr Oct4_peaks.narrowPeak | awk 'BEGIN{OFS="\t"}{print $1,$2+$10,$2+$10+1,$4}'
 ```
 
-## grep
+### grep
 
 __1. Output the record names from a fasta file:__
 
@@ -109,7 +111,7 @@ grep -o -P 'CCGAGCCCACGAGAC[ACGT]{8}ATCTCGTATGCCGTCTTCTGCTTG' *.fastq
 grep -oh -P 'CCGAGCCCACGAGAC[ACGT]{8}ATCTCGTATGCCGTCTTCTGCTTG' *.fastq
 ```
 
-## cut
+### cut
 
 __1. Extract the 1st, 2nd, 4-8th, 10th and following columns from a tab-delimited file (default):__
 
@@ -129,7 +131,7 @@ __3. Extract the last column and use '/' as a delimiter:__
 cat input.txt | rev | cut -f 1 -d/ | rev
 ```
 
-## xargs
+### xargs
 
 __1. Kill all pending jobs in LSF:__
 
