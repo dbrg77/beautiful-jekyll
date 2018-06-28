@@ -21,7 +21,7 @@ __3. Choose the following options:__
 > __table:__ refGene  
 > __region:__ genome  
 > __output:__ all fields from selected table  
-> __ output file:__ whatever name you want (e.g. refseq_genes_hg38.txt)
+> __output file:__ whatever name you want (e.g. refseq_genes_hg38.txt)
 
 __4. The downloaded text file is a tab-delimited file. You can get a rough idea what it contains:__
 
