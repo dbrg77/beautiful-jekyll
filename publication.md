@@ -4,8 +4,9 @@ title: Publication
 subtitle: One aspect of my contributions to science.
 ---
 
-### * indicates co-first author, and _italic fonts_ indicate reviews or comments.  
-  
+### * indicates co-first author, and _italic fonts_ indicate reviews or comments.
+
+$~$
 
 #### 2018
 
