@@ -3,9 +3,9 @@ layout: post
 title: Set Up Public Links For UCSC Genome Browser (bigDataUrl) Visualisation At The WTSI
 ---
 
-The best way of visualising sequencing reads pileup/coverage data (very useful for ChIP-seq, DNase-seq & ATAC-seq) is to get the pileup/coverage files in [bigWig format](https://genome.ucsc.edu/goldenpath/help/bigWig.html), and visualise the signal as custom tracks using [UCSC genome browser](https://genome.ucsc.edu/goldenpath/help/customTrack.html) - the best genome browser, period! The bigWig files are often large, especially when you have high coverage experiments. Therefore, you need a place to host your files, and they need to be in a place where UCSC genome browser can reach.
+The best way of visualising sequencing reads pileup/coverage data (very useful for ChIP-seq, DNase-seq & ATAC-seq) is to get the pileup/coverage files in __[bigWig format](https://genome.ucsc.edu/goldenpath/help/bigWig.html)__, and visualise the signal as custom tracks using __[UCSC genome browser](https://genome.ucsc.edu/goldenpath/help/customTrack.html)__ - the best genome browser, period! The bigWig files are often large, especially when you have high coverage experiments. Therefore, you need a place to host your files, and they need to be in a place where UCSC genome browser can reach.
 
-In Sanger, it is not so obvious how you can do it, but it is not difficult. The information is kind of hidden, and you need to find the right person to ask. At this moment of writing, there are two eay ways of achieving this goal.
+At Sanger, it is not so obvious how you can do it, but it is not difficult. The information is kind of hidden, and you need to find the right person to ask. At this moment of writing, there are two eay ways of achieving this goal.
 
 ## Method 1: use web-bfint:/data
 
@@ -43,7 +43,7 @@ For example, I have a bigWig file called `the_best_chip_seq_ever.bw` somewhere o
 scp the_best_chip_seq_ever.bw xc1@web-bfint:/data/production/teichmann/xi/
 ```
 
-After the transfer, if I enter this address in my Chrome/Firefox `ftp://ngs.sanger.ac.uk/production/teichmann/xi`, I should be able to see the file there. Note: files are synced hourly, so you might expriece a delay between getting files to the directory and being able to see the files via the ftp address.
+After the transfer, if I enter this address in my Chrome/Firefox `ftp://ngs.sanger.ac.uk/production/teichmann/xi`, I should be able to see the file there. Note: files are synced hourly, so you might exprience a delay between getting files to the directory and being able to see the files via the ftp address.
 
 To visualise the file, I can just go to UCSC genome browser to add a custom track by (just an example):
 
@@ -59,7 +59,7 @@ That's it.
 
 The ftp method is easy, but it has a problem. Sometimes, especially when you have large amount of data, the UCSC genome browser shows an error: `ftp server error on cmd=[PASS x@genome.ucsc.edu]`. You have to keep refreshing the page several times, which is annoying.
 
-Another way is to use [S3 storage](https://aws.amazon.com/s3/) provided under Sanger Flexible Computing Environment. Again, create a ticket via ServiceDesk, saying that you want to use S3 storage. You can request 100 GB maximum. 100 GB is quite small, but it can still hosts quite a large amount of bigWig files.
+Another way is to use __[S3 storage](https://aws.amazon.com/s3/)__ provided under Sanger Flexible Computing Environment. Again, create a ticket via ServiceDesk, saying that you want to use S3 storage. You can request a maximum of 100 GB. 100 GB is quite small, but it can still host quite a large amount of bigWig files.
 
 After they created an S3 account for you, you will have a `.s3cfg` file in your home directory on Sanger farm, and the content will look like this (I ommited security part):
 
