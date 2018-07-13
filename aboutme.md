@@ -10,7 +10,7 @@ I will write something when I have time.
 
 ### About this website
 
-I write stuff here to explain things that I'm trying to understand for my own education. The theme for this website is forked from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) by [Dean Attali](https://deanattali.com/). If you are familiar with genomics data, you will be very familiar with the favicon of this website. It is a genome coverage track screenshot taken from a scATAC-seq data from one of my experiment.
+I write stuff here to explain things that I'm trying to understand for my own education. The theme for this website is forked from [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) by [Dean Attali](https://deanattali.com/). If you are into genomics data, you will be very familiar with the favicon of this website. It is a genome coverage track screenshot taken from a scATAC-seq data from one of my experiment.
 
 ### Some random thoughts about myself:
 
