@@ -9,7 +9,7 @@ Many methods (mainly for scRNA-seq) are invented along the way, which is a good 
 
 ![](/img/schematic_view_of_libraries.png)
 
-It is very clear and very helpful, but my main problem with this kind of schematic view is that it often ommits many important details and does not help with troubleshooting. From my own experience, when I to try a new scRNA-seq method, most likely I will fail in the first few attempts. After getting the sequencing data, I often use `grep` to have a look at the sequences from the fastq files, and `grep` is pretty good for troubleshooting genomic experiments. However, I still have a few things that I need to figure out:
+It is very clear and very helpful, but my main problem with this kind of schematic view is that it often ommits many important details and does not help with troubleshooting. From my own experience, when I try a new scRNA-seq method, most likely I will fail in the first few attempts. After getting the sequencing data, I often use `grep` to have a look at the sequences from the fastq files, and `grep` is pretty good for troubleshooting genomic experiments. However, I still have a few things that I need to figure out:
 
 - What are the adapter sequences to `grep`? i.e. the grey bar in the figure above.
 - Since DNA is double stranded, should I `grep` the adapter sequences as they are, or should I do the reverse complement?
