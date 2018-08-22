@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting RefSeq gene TSS from UCSC
+description: a showcase of using UCSC table browser to obtain data, such as RefSeq gene transcriptional start site coordinates.
 ---
 
 _Originally posted on 2016-Nov-09._
