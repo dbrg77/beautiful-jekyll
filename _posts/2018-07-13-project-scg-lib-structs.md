@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Project scg_lib_structs
+description: a step-by-step note about how most popular single cell RNA-seq (scRNA-seq) libraries are generated and sequenced.
 ---
 
 Being able to perform genomic studies on the material obtained from single cells is just awesome. In 2009, [__Tang__ ___et al___.](https://www.nature.com/articles/nmeth.1315) presented the first study of mRNA-seq from single cells (scRNA-seq). Two years later, [__Navin__ ___et al___.](https://www.nature.com/articles/nature09807) successfully sequenced the genome of single cells. Ever since then, the field of single cell genomics is rapidly evolving and has proved to be powerful in many aspects of biology.
