@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ATAC-seq Insert Size Plotting
+description: ATAC-seq insert size plot (nucleosomal banding pattern plot) using a simple bash command and excel.
 ---
 
 _Originally posted on 2017-Feb-10._
