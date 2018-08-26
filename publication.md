@@ -10,7 +10,7 @@ $~$
 
 #### 2018
 
-___Chen, X.*___, _Teichmann, S.A., and Meyer, K.B.* (2018). From Tissues to Cell Types and Back: Single-Cell Gene Expression Analysis of Tissue Architecture._ ___Annu. Rev. Biomed. Data Sci.___
+___Chen, X.*___, _Teichmann, S.A., and Meyer, K.B.* (2018). From Tissues to Cell Types and Back: Single-Cell Gene Expression Analysis of Tissue Architecture._ ___Annu. Rev. Biomed. Data Sci.___ 1, 29-51.
 
 #### 2017
 
