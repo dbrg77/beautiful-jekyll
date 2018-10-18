@@ -24,8 +24,6 @@ I write stuff here to explain things that I'm trying to understand for my own ed
   
 - I also play some 8-bit NES games: the Ninja Gaiden triology, Megaman 1 and 2, Castlevania.  
 
-- I used to be good at sports, [click here](https://flic.kr/s/aHskDDW8Y1) for some sort of proof.
-
 - My avatar is from a [WeChat channel](http://blog.xiqiao.info/category/programmers) by [xiqiao](http://blog.xiqiao.info/about). Scan the QR code to follow the channel:  
   
   ![](/img/qrcode_for_gh_3a770c0bc91e_344.jpg)
