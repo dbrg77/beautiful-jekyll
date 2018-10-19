@@ -25,6 +25,7 @@ description: Search, search, research ...
 navbar-links:
   About Me: "aboutme"
   Publication: "publication"
+  Archive: "archive"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
