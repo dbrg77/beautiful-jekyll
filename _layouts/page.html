@@ -22,16 +22,16 @@ layout: base
 
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
+       <body style="text-align:center">
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-   <body style="text-align:center">
            <div style="text-align:center"><h1>{{ currentDate }}</h1></div>
            <ul style="display:inline-block; text-align:left">
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
+       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%d/%m/%Y" }}</span> - {{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
-   </body>
+       </body>
    {% endfor %}
 
 </section>
