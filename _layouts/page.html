@@ -17,21 +17,3 @@ layout: base
     </div>
   </div>
 </div>
-
-<section class="archive-post-list">
-
-   {% for post in site.posts %}
-       {% assign currentDate = post.date | date: "%Y" %}
-       <body style="text-align:center">
-       {% if currentDate != myDate %}
-           {% unless forloop.first %}</ul>{% endunless %}
-           <div style="text-align:center"><h1>{{ currentDate }}</h1></div>
-           <ul style="display:inline-block; text-align:left">
-           {% assign myDate = currentDate %}
-       {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%d/%m/%Y" }}</span> - {{ post.title }}</a></li>
-       {% if forloop.last %}</ul>{% endif %}
-       </body>
-   {% endfor %}
-
-</section>
