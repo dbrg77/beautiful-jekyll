@@ -31,7 +31,7 @@ The idea of CUT&RUN is not completely new. It was inspired by a publication in _
 5. Add Ca2+ to activate MNase, and it will cut the DNA around where the protein of interest is bound.
 6. Collect the small DNA fragment for the analysis (Southern blot in the original publication).
 
-That's it! I'm going to say it again: the idea of ChIC is simply brilliant! Last year, Steven Henikoff's lab did the community a favour and adapted this method for sequencing, and they called it CUT&RUN (___C___leavage ___U___nder ___T___argets and ___R___elease ___U___sing ___N___uclease) ([__Skene and Henikoff__, __2017__](https://elifesciences.org/articles/21856)). The obvious advantages of CUT&RUN over ChIP-seq are:
+That's it! I'm going to say it again: the idea of ChIC is simply brilliant! Last year, Steven Henikoff's lab did the community a favour and adapted this method for sequencing, and they called it CUT&RUN (__C__leavage __U__nder __T__argets and __R__elease __U__sing __N__uclease) ([__Skene and Henikoff__, __2017__](https://elifesciences.org/articles/21856)). The obvious advantages of CUT&RUN over ChIP-seq are:
 
 - Crosslinking free.
 - Sonication free, yeah!!!
