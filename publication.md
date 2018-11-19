@@ -16,7 +16,7 @@ Hagai, T., __Chen, X.__, Miragaia, R.J., Rostom, R., Gomes, T., Kunowska, N., He
 
 Pramanik, J., __Chen, X.__, Kar, G., Henriksson, J., Gomes, T., Park, J.-E., Natarajan, K., Meyer, K.B., Miao, Z., McKenzie, A.N.J., et al. (2018). Genome-wide analyses reveal the IRE1a-XBP1 pathway promotes T helper cell differentiation by resolving secretory stress and accelerating proliferation. ___Genome Med.___ 10, 76.
 
-___Chen, X.*___, _Teichmann, S.A., and Meyer, K.B.* (2018). From Tissues to Cell Types and Back: Single-Cell Gene Expression Analysis of Tissue Architecture._ ___Annu. Rev. Biomed. Data Sci.___ 1, 29-51.
+___Chen, X.___, _Teichmann, S.A., and Meyer, K.B. (2018). From Tissues to Cell Types and Back: Single-Cell Gene Expression Analysis of Tissue Architecture._ ___Annu. Rev. Biomed. Data Sci.___ 1, 29-51.
 
 #### 2017
 
