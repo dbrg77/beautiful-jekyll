@@ -10,6 +10,8 @@ $~$
 
 #### 2018
 
+Jia, G.\*, Preussner, J.\*, __Chen, X.\*__, Guenther, S., Yuan, X., Yekelchyk, M., Kuenne, C., Looso, M., Zhou, Y., Teichmann, S., et al. (2018). Single cell RNA-seq and ATAC-seq analysis of cardiac progenitor cell transition states and lineage settlement. ___Nat. Commun.___ 9, 4877.
+
 Hagai, T., __Chen, X.__, Miragaia, R.J., Rostom, R., Gomes, T., Kunowska, N., Henriksson, J., Park, J.-E., Proserpio, V., Donati, G., et al. (2018). Gene expression variability across cells and species shapes innate immunity. ___Nature___ 563, 197–202.
 
 Pramanik, J., __Chen, X.__, Kar, G., Henriksson, J., Gomes, T., Park, J.-E., Natarajan, K., Meyer, K.B., Miao, Z., McKenzie, A.N.J., et al. (2018). Genome-wide analyses reveal the IRE1a-XBP1 pathway promotes T helper cell differentiation by resolving secretory stress and accelerating proliferation. ___Genome Med.___ 10, 76.
