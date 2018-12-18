@@ -10,6 +10,8 @@ $~$
 
 #### 2018
 
+__Chen, X.__, Miragaia, R.J., Natarajan, K.N., and Teichmann, S.A. (2018b). A rapid and robust method for single cell chromatin accessibility profiling. ___Nat. Commun.___ 9, 5345.
+
 Jia, G.\*, Preussner, J.\*, __Chen, X.\*__, Guenther, S., Yuan, X., Yekelchyk, M., Kuenne, C., Looso, M., Zhou, Y., Teichmann, S., et al. (2018). Single cell RNA-seq and ATAC-seq analysis of cardiac progenitor cell transition states and lineage settlement. ___Nat. Commun.___ 9, 4877.
 
 Hagai, T., __Chen, X.__, Miragaia, R.J., Rostom, R., Gomes, T., Kunowska, N., Henriksson, J., Park, J.-E., Proserpio, V., Donati, G., et al. (2018). Gene expression variability across cells and species shapes innate immunity. ___Nature___ 563, 197–202.
