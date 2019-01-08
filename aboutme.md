@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: 0x20
+subtitle: 0x20.
 ---
 
 ### My education background
