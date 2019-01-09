@@ -8,6 +8,10 @@ subtitle: One aspect of my contributions to science.
 
 $~$
 
+#### 2019
+
+Zhang, W.\*, Chronis, C.\*, __Chen, X.\*__, Zhang, H., Spalinskas, R., Pardo, M., Chen, L., Wu, G., Zhu, Z., Yu, Y., et al. (2019). The BAF and PRC2 Complex Subunits Dpf2 and Eed Antagonistically Converge on Tbx3 to Control ESC Differentiation. ___Cell Stem Cell___ 24, 138–152.e8.
+
 #### 2018
 
 __Chen, X.__, Miragaia, R.J., Natarajan, K.N., and Teichmann, S.A. (2018). A rapid and robust method for single cell chromatin accessibility profiling. ___Nat. Commun.___ 9, 5345.
