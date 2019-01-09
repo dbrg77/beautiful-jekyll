@@ -24,10 +24,6 @@ Pramanik, J., __Chen, X.__, Kar, G., Henriksson, J., Gomes, T., Park, J.-E., Nat
 
 ___Chen, X.___, _Teichmann, S.A., and Meyer, K.B. (2018). From Tissues to Cell Types and Back: Single-Cell Gene Expression Analysis of Tissue Architecture._ ___Annu. Rev. Biomed. Data Sci.___ 1, 29-51.
 
-#### 2017
-
-__Skiving ...__
-
 #### 2016
 
 __Chen, X.__, Ji, Z., Webber, A., and Sharrocks, A.D. (2016). Genome-wide binding studies reveal DNA binding specificity mechanisms and functional interplay amongst Forkhead transcription factors. ___Nucleic Acids Res.___ 44, 1566–1578.
@@ -43,10 +39,6 @@ Yu, Y., Tsang, J.C.H., Wang, C., Clare, S., Wang, J., __Chen, X.__, Brandt, C., 
 Aguilar-Martinez, E., __Chen, X.__, Webber, A., Paul Mould, A., Seifert, A., Hay, R.T., and Sharrocks, A.D. (2015). Screen for multi-SUMO–binding proteins reveals a multi-SIM–binding mechanism for recruitment of the transcriptional regulator ZMYM2 to chromatin. ___Proc. Natl. Acad. Sci. U. S. A.___ 112, E4854–E4863.
 
 Wiseman, E.F., __Chen, X.__, Han, N., Webber, A., Ji, Z., Sharrocks, A.D., and Ang, Y.S. (2015). Deregulation of the FOXM1 target gene network and its coregulatory partners in oesophageal adenocarcinoma. ___Mol. Cancer___ 14, 69.
-
-#### 2014
-
-__Hmm ...__
 
 #### 2013
 
