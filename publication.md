@@ -10,7 +10,7 @@ $~$
 
 #### 2019
 
-Henriksson, J.\*, __Chen, X.\*__, Gomes, T., Ullah, U., and Meyer, K.B. (2017). Genome-wide CRISPR screens in T helper cells reveal pervasive cross-talk between activation and differentiation. ___Cell___ 176, 1–15.
+Henriksson, J.\*, __Chen, X.\*__, Gomes, T., Ullah, U., and Meyer, K.B. (2019). Genome-wide CRISPR screens in T helper cells reveal pervasive cross-talk between activation and differentiation. ___Cell___ 176, 1–15.
 
 Zhang, W.\*, Chronis, C.\*, __Chen, X.\*__, Zhang, H., Spalinskas, R., Pardo, M., Chen, L., Wu, G., Zhu, Z., Yu, Y., et al. (2019). The BAF and PRC2 Complex Subunits Dpf2 and Eed Antagonistically Converge on Tbx3 to Control ESC Differentiation. ___Cell Stem Cell___ 24, 138–152.e8.
 
