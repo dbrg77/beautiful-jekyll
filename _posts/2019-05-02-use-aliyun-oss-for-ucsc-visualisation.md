@@ -83,6 +83,6 @@ bigDataUrl=https://myatacbucket.oss-cn-shenzhen.aliyuncs.com/my_bigwig.bw
 visibility=full maxHeightPixels=10:50:128 viewLimits=0:20 autoScale=OFF color=0,0,255
 ```
 
-Now it is done, and the speed is quite nice.
+Now it is done, and the speed is quite nice. You can find more information about ossutils from their [documentation](https://help.aliyun.com/document_detail/50452.html?spm=a2c4g.11186623.6.1382.1e0a1594MxR9iZ).
 
-1[](../img/000/ucsc_vis.png)
+![](../img/000/ucsc_vis.png)
