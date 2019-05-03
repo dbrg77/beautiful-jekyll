@@ -45,7 +45,7 @@ scp the_best_chip_seq_ever.bw xc1@web-bfint:/data/production/teichmann/xi/
 
 After the transfer, if I enter this address in my Chrome/Firefox `ftp://ngs.sanger.ac.uk/production/teichmann/xi`, I should be able to see the file there. Note: files are synced hourly, so you might exprience a delay between getting files to the directory and being able to see the files via the ftp address.
 
-To visualise the file, I can just go to UCSC genome browser to add a custom track by (just an example):
+To visualise the file, I can just go to UCSC genome browser to add a custom track by (just an example, the following text should be in one single line):
 
 ```
 track type=bigWig name=chip_seq description=the_best_chip_seq_ever_pileup
@@ -98,7 +98,7 @@ s3cmd setacl --acl-public s3://xc1_mSp_scATAC/the_best_atac_seq_ever.bw
 
 Now, it is done. The public address for the bigWig file is `https://cog.sanger.ac.uk/xc1_mSp_scATAC/the_best_atac_seq_ever.bw` (now you see why the bucket name must be unique across the entire institute, right?).
 
-To visualise the file, I can just go to UCSC genome browser to add a custom track by (similar example as the previous one):
+To visualise the file, I can just go to UCSC genome browser to add a custom track by (similar example as the previous one, and again, the following text should be in one single line):
 
 ```
 track type=bigWig name=atac_seq description=the_best_atac_seq_ever_pileup
