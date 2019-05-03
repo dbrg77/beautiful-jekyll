@@ -67,7 +67,7 @@ This creates a bucket called `myatacbucket` that can be read by public. Okay, no
 
 `ossutil64 cp my_bigwig.bw oss://myatacbucket`
 
-Now, to get an URL so that UCSC can reach it. You go to your OSS console, and do `your bucket name --> File Manament --> Tick your files --> Export URL`, like this:
+Now, to get an URL so that UCSC can reach it. You go to your OSS console, and do `your bucket name --> File Management --> Tick your files --> Export URL`, like this:
 
 ![](../img/000/oss_url.png)
 
