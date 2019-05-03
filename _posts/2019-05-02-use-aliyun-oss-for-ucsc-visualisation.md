@@ -17,7 +17,7 @@ The bigWig files we got nowadays are often large (>100 MB), so it is not possibl
 
 ## The Solution.
 
-Havning looked around for a few things, I think I find a solution. I don't think this is THE solution, because I haven't tried hard enough. This solution is to use [Aliyun Object Storage Service](https://www.aliyun.com/), which is similar to Amazon S3, and it really solves all the problems mentioned above. The price is pretty affordable. For 100GB of data, you only pay 0.12 RMB per month. With 100GB of space, you can store quite a lot of experiments. The price is nothing comparing to the reagents you spent on your experiments, and you don't need to worry about the maintaince of the sever etc.
+Having looked around for a few things, I think I find a solution. This may not be THE solution, because I haven't tried hard enough. This solution is to use [Aliyun Object Storage Service](https://www.aliyun.com/), which is similar to Amazon S3, and it really solves all the problems mentioned above. The price is pretty affordable. For 100GB of data, you only pay 12 RMB per month. With 100GB of space, you can store quite a lot of experiments. The price is nothing comparing to the reagents you spent on your experiments, and you don't need to worry about the maintaince of the sever etc.
 
 ![](../img/000/oss_price.png)
 
@@ -63,11 +63,11 @@ Okay, just like Amazon S3, you need to create a bucket and put your files into t
 
 `ossutil64 mb oss://myatacbucket --acl=public-read --storage-class Standard`
 
-This creates a bucket called `msp-scatac` that can be read by public. Okay, now locate the bigWig file in your local machine, and transfer it to the bucket:
+This creates a bucket called `myatacbucket` that can be read by public. Okay, now locate the bigWig file in your local machine, and transfer it to the bucket:
 
 `ossutil64 cp my_bigwig.bw oss://myatacbucket`
 
-Now, to get an url so that UCSC can reach it. You go to your OSS console, and do `your bucket name --> File Manament --> Tick your files --> Export URL`, like this:
+Now, to get an URL so that UCSC can reach it. You go to your OSS console, and do `your bucket name --> File Manament --> Tick your files --> Export URL`, like this:
 
 ![](../img/000/oss_url.png)
 
@@ -75,7 +75,7 @@ So, using the above example, my URL will be:
 
 `http://myatacbucket.oss-cn-shenzhen.aliyuncs.com/my_bigwig.bw`
 
-Go to UCSC (recommend the Asia mirror if you are in China: https://genome-asia.ucsc.edu/), and put your url there like usual (the following text should be in one single line):
+Go to UCSC (recommend the Asia mirror if you are in China: [https://genome-asia.ucsc.edu](https://genome-asia.ucsc.edu)), and put your URL there like usual (the following text should be in one single line):
 
 ```
 track type=bigWig name=atac_seq description=the_best_atac_seq_ever_pileup
