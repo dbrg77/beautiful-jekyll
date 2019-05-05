@@ -31,7 +31,9 @@ Then a warning will pop up, but you just click "Continue to use Access Key". The
 
 Now in your local machine, open up your `Terminal` and download the right binary from [this page](https://help.aliyun.com/document_detail/50452.html?spm=a2c4g.11186623.6.1382.fe817e90clvugi). Start configure your OSS storage by type:
 
-`ossutil64 config`
+```
+ossutil64 config
+```
 
 Just input the information required, and here is mine:
 
@@ -61,11 +63,15 @@ and a few more in other countries.
 
 Okay, just like Amazon S3, you need to create a bucket and put your files into the bucket. For example, I created a bucket called `myatacbucket` by (Note: only lowercase letters, numbers and `-` are allowed to name a bucket):
 
-`ossutil64 mb oss://myatacbucket --acl=public-read --storage-class Standard`
+```
+ossutil64 mb oss://myatacbucket --acl=public-read --storage-class Standard
+```
 
 This creates a bucket called `myatacbucket` that can be read by public. Okay, now locate the bigWig file in your local machine, and transfer it to the bucket:
 
-`ossutil64 cp my_bigwig.bw oss://myatacbucket`
+```
+ossutil64 cp my_bigwig.bw oss://myatacbucket
+```
 
 Now, to get an URL so that UCSC can reach it. You go to your OSS console, and do `your bucket name --> File Management --> Tick your files --> Export URL`, like this:
 
@@ -73,7 +79,9 @@ Now, to get an URL so that UCSC can reach it. You go to your OSS console, and do
 
 So, using the above example, my URL will be:
 
-`http://myatacbucket.oss-cn-shenzhen.aliyuncs.com/my_bigwig.bw`
+```
+http://myatacbucket.oss-cn-shenzhen.aliyuncs.com/my_bigwig.bw
+```
 
 Go to UCSC (recommend the Asia mirror if you are in China: [https://genome-asia.ucsc.edu](https://genome-asia.ucsc.edu)), and put your URL there like usual (the following text should be in one single line):
 
