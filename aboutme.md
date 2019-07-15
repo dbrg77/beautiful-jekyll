@@ -6,9 +6,11 @@ subtitle: 0x20.
 
 ### My education background
 
-I did my BSc in Experimental Medicine in Peking University Health Science Centre in Beijing, where I became interested in all the techniques used in biochemistry and molecular biology. After graduation, I joined Prof. Andrew Sharrocks' lab at the University of Manchester as a PhD student, studying the DNA binding specificity of different Forkhead transcription factors. During this period, I discovered an evolutionarily conserved transcription factor complex that regulates G2/M cell cycle transition. After my PhD, I joined Dr. Sarah Teichmann's group as a postdoc to investiage T helper cell 2 (Th2) differentiation from an epigenetic point of view.
+I did my BSc in Experimental Medicine in Peking University Health Science Centre in Beijing, where I became interested in all the techniques used in biochemistry and molecular biology. After graduation, I joined Prof. Andrew Sharrocks' lab at the University of Manchester as a PhD student, studying the DNA binding specificity of different Forkhead transcription factors. During this period, I discovered an evolutionarily conserved transcription factor complex that regulates G2/M cell cycle transition.
 
-I am currently working as a Senior Staff Scientist in the Teichmann lab, where I have been trying to develop techniques to interrogate the gene expression and epigentic profiles at the single cell level. I am manly interested in incorporating gene expression and epigenetic data to understand cellular differentiation.
+After my PhD, I joined Dr. Sarah Teichmann's group at the EBI as a postdoc to investiage T helper cell 2 (Th2) differentiation from an epigenetic point of view. In 2016, the Teichmann lab moved to the Sanger Institute, and I became a Senior Staff Scientist in the lab. During that period, I was mainly working on techniques to interrogate the gene expression and epigentic profiles at the single cell level. I developed a simple and robust way of performing scATAC-seq so that everybody can easily investigate chromatin accessibility at the single cell level.
+
+In 2019, I joined the Department of Biology in SUSTech, Shenzhen, China as an Assistant Professor. My lab study transcriptional regulation in cell fate decision and memory. My lab website is coming soon ... hopefully ...
 
 ### About this website
 
