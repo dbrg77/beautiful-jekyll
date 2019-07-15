@@ -4,7 +4,7 @@ title: About me
 subtitle: 0x20.
 ---
 
-### My education background
+### My background
 
 I did my BSc in Experimental Medicine in Peking University Health Science Centre in Beijing, where I became interested in all the techniques used in biochemistry and molecular biology. After graduation, I joined Prof. Andrew Sharrocks' lab at the University of Manchester as a PhD student, studying the DNA binding specificity of different Forkhead transcription factors. During this period, I discovered an evolutionarily conserved transcription factor complex that regulates G2/M cell cycle transition.
 
