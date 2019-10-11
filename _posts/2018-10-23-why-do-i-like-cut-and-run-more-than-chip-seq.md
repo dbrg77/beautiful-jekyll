@@ -43,3 +43,13 @@ That's it! I'm going to say it again: the idea of ChIC is simply brilliant! Last
 Very often, when a new ChIP-seq method variation comes out, it is just tested with proteins in yeasts or with histone modifications and CTCF in mammalian cells. They are informative, but you have to admit: they are relatively easy to do. What makes me feel positive about CUT&RUN is that other transcription factors (apart from CTCF), such as MYC and MAX, are shown to be working with the method.
 
 Now, all I need to do is to establish my own lab, try it and get it to work. I am sure it will be a lot of fun :-)
+
+__Update__: New methods build upon the idea of CUT&RUN , where the MNase was replaced by the transposase Tn5, were developed in 2019. These methods offer an even quicker and simpler way of profiling protein-DNA interactions in low-input and single cell level. These methods inlcude:
+
+- [CUT&TAG](https://www.nature.com/articles/s41467-019-09982-5) from Steve Henikoff's lab.
+- [ACT-seq](https://www.nature.com/articles/s41467-019-11559-1) from Keji Zhao's lab.
+- [CoBATCH](https://www.cell.com/molecular-cell/fulltext/S1097-2765(19)30545-3) and [itChIP-seq](https://www.nature.com/articles/s41556-019-0383-5) from Aibin He's lab.
+
+I have personally tried the CUT&TAG method, because it has a very detailed protocol on [protocols.io](https://www.protocols.io/view/bench-top-cut-amp-tag-z6hf9b6). Dr. Steve Henikoff is also actively answering questions on the website. The method worked pretty well in my hand (at least for H3K27me3 for now). Here is a screenshot of our data: H3K27me3 in K562 cells around HOXD cluster.
+
+![](../img/000/k562_h3k27me3_cnt.png)
