@@ -38,7 +38,7 @@ __5. txStart and txEnd indicate where the transcript starts or ends respectively
 ```
 tail -n +2 refseq_genes_hg38.txt | awk '
 BEGIN{OFS="\t"}{
-if($4=="+") {print $3,$5-1,$5,$2 "_" $13,".",$4}
+if($4=="+") {print $3,$5,$5+1,$2 "_" $13,".",$4}
  else {print $3,$6-1,$6,$2 "_" $13,".",$4}
  }' > refseq_hg38_UCSC_TSS.bed
  
@@ -85,3 +85,5 @@ chr1 187957 187958 NR_128720_MIR6859-4 . -
 chr1 206596 206597 NR_026823_FAM138D . -
 chr1 451677 451678 NM_001005221_OR4F29 . -
 ```
+
+__Note: in the original post, there was a mistake in the `getTSS.sh`. The `$5-1, $5` should be changed to `$5, $5+1`. This has been corrected now. Thank Rohit Satyam for pointing that out.__
